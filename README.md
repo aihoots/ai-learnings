@@ -22,13 +22,13 @@ Neural network architectures vary in structure and functionality, catering to di
 ```mermaid
 graph TD
     A[Neural Network Architectures]
-    A --> B[Feedforward Neural Networks (FNN)]
-    A --> C[Convolutional Neural Networks (CNN)]
-    A --> D[Recurrent Neural Networks (RNN)]
-    D --> E[Long Short-Term Memory Networks (LSTM)]
-    D --> F[Gated Recurrent Units (GRU)]
+    A --> B[Feedforward Neural Networks]
+    A --> C[Convolutional Neural Networks]
+    A --> D[Recurrent Neural Networks]
+    D --> E[Long Short-Term Memory Networks]
+    D --> F[Gated Recurrent Units]
     A --> G[Autoencoders]
-    A --> H[Generative Adversarial Networks (GAN)]
+    A --> H[Generative Adversarial Networks]
     A --> I[Transformer Networks]
 
     B --> B1[Example: Predicting House Prices]
