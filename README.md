@@ -39,7 +39,6 @@ graph TD
     G --> G1[Example: Image Denoising]
     H --> H1[Example: Image Generation]
     I --> I1[Example: Language Translation]
-
 ```
 
 ### Detailed Explanation of Each Architecture
