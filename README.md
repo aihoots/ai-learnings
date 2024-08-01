@@ -1,9 +1,6 @@
 # ai-learnings
 
 
-
-Day1 
-
 ### Different Types of Neural Network Architectures
 
 Neural network architectures vary in structure and functionality, catering to different types of tasks and data. Here are some of the main types of neural networks:
@@ -99,47 +96,7 @@ graph TD
    - **Core Details**: 
      - Captures long-range dependencies without sequential processing.
      - State-of-the-art for NLP tasks.
-
-### Example to Remember
-
-**CNN for Image Classification**:
-- **Structure**: Imagine you're teaching a computer to recognize cats in photos. The CNN will look at small parts of the image (convolutional layers) to find patterns like edges, textures, and shapes that are characteristic of a cat.
-- **Core Details**: The network captures spatial hierarchies of features and processes the image through several layers to make accurate predictions.
-
-### Summary
-
-Neural network architectures are diverse and cater to different data types and tasks. From basic feedforward networks to advanced transformer models, each type has unique structures and strengths:
-
-- **FNNs**: Simple structure, good for structured data.
-- **CNNs**: Specialized for image data, capturing spatial hierarchies.
-- **RNNs, LSTMs, GRUs**: Handle sequential and temporal data, with LSTMs and GRUs addressing long-term dependencies.
-- **Autoencoders**: Used for unsupervised tasks like dimensionality reduction.
-- **GANs**: Generate new data similar to training data.
-- **Transformers**: Excel in NLP tasks, capturing long-range dependencies efficiently.
-
-By understanding these architectures and their applications, you can better position yourself as a leader in the AI field, leveraging the right models for various enterprise AI strategies and use cases.
-
-Transformer Network Architecture
-Transformers are a type of neural network architecture designed to handle sequential data efficiently. They have revolutionized natural language processing (NLP) by using mechanisms like self-attention to understand the context of data without processing it sequentially, which significantly improves performance and scalability.
-
-Key Components of Transformer Networks
-Encoder-Decoder Structure
-
-Encoder: Processes the input data and generates a representation of it.
-Decoder: Uses the encoded representation to generate the output.
-Self-Attention Mechanism
-
-Allows the model to focus on different parts of the input data when producing a representation of a word.
-Captures dependencies between words regardless of their distance in the sequence.
-Positional Encoding
-
-Since transformers do not process data sequentially, positional encodings are added to the input embeddings to provide information about the position of each word in the sequence.
-Feedforward Neural Networks
-
-Applied to each position separately and identically to transform the attention output into a final output.
-Layer Normalization
-
-Applied to stabilize and accelerate the training process.
+    
 
 ```mermaid
 graph TB
@@ -164,9 +121,8 @@ graph TB
 
 ```
 
-
-Traditional RNNs/LSTMs: Imagine you’re reading a book one word at a time and trying to understand the context based on what you’ve read so far. This sequential processing can be slow and may forget long-term dependencies.
-Transformers: Now, imagine you can see the entire page at once and highlight the important parts. This is how transformers work, using self-attention to focus on relevant words regardless of their position in the text.
+** Traditional RNNs/LSTMs: Imagine you’re reading a book one word at a time and trying to understand the context based on what you’ve read so far. This sequential processing can be slow and may forget long-term dependencies.
+** Transformers: Now, imagine you can see the entire page at once and highlight the important parts. This is how transformers work, using self-attention to focus on relevant words regardless of their position in the text.
 
 
 
